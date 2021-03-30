@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pawtastic Dog Salon & Wash</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;1,500&family=Montserrat&display=swap" rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/e7def617c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="topnav" id="myTopnav">
+            <button class="icon" id="menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <p id="pawtastic"><a href="#home">Pawtastic Dog Salon & Wash</a></p>
+            <ul>
+                <li class="navOption">
+                    <a href="#about">About us</a>
+                </li>
+                <li class="navOption">
+                    <a href="#services">Services</a>
+                </li>
+                <li class="navOption">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="navOption">
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li class="navOption">
+                    <a href="#book">Book</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Banner section -->
+        <div class="banner" id="home">
+            <div class="welcome-message">
+                <h1>Welcome to Pawtastic Dog Salon & Wash</h1>
+                <br>
+                <p>Book an appointment for your pup today!</p>
+                <br>
+                <a href="#book"><button>Book Now</button></a> 
+            </div>
+        </div>
+        <!-- About us section -->
+        <div class="about-us" id="about">
+            <h2>About us</h2>
+            <p>- Our story -</p>
+            <p class="mission">
+                Well-groomed pets are happier, better behaved, healthier, and 
+                more outgoing. Just like all of us, they feel good when they 
+                look good. Pawtastic Dog Salon & Wash offers a complete line 
+                of fine grooming services to bring out the best of appearance 
+                and personality in any breed. We work carefully, never rush, 
+                and approach every pet individually. We highly advocate for animal
+                rights and sustainability so the only products that we use are 
+                vegan and cruelty-free. Feel free to contact us if you want 
+                to pamper your pup with a relaxing spa-like experience!
+            </p>
+        </div>
+        <!-- Services section -->
+        <div class="services-container" id="services">
+            <h2>Services</h2>
+            <p>Check out what services we offer</p>
+            <div class="services">
+                <div class="service bath">
+                    <img src="images/service1.jpg">
+                    <h3>Bath</h3>
+                    <p class="service-description">
+                        Bring your pup and wash it yourself or let our professionals 
+                        bathe your pup for you! We provide all bathing supplies.
+                    </p>
+                </div>
+                <div class="service mini-groom">
+                    <img src="images/service2.jpeg">
+                    <h3>Mini Grooming</h3>
+                    <p class="service-description">
+                        Treat your pup with a relaxing spa experience. Mini Groom 
+                        includes bath, brush, nail trim, and ear cleaning.
+                    </p>
+                </div>
+                <div class="service full-groom">
+                    <img src="images/service3.jpg">
+                    <h3>Full Grooming</h3>
+                    <p class="service-description">
+                        Does your dog need a haircut? Full Groom includes bath, 
+                        brush, cut and/or shave, nail trim, and ear cleaning.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section -->
+        <div class="contacts" id="contact">
+            <div class="contact address">
+                <i class="fas fa-map-marker-alt fa-3x"></i>
+                <h3>Address:</h3>
+                <p>233 Lewis Avenue,</p>
+                <p>Brooklyn, NY 11233</p>
+            </div>
+            <div class="contact hours">
+                <i class="far fa-clock fa-3x"></i>
+                <h3>Hours:</h3>
+                <p>Mon-Fri: 8:00 AM - 9:00 PM</p>
+                <p>Sat: 8:00 AM - 2:00 PM</p>
+            </div>
+            <div class="contact phone-number">
+                <i class="fas fa-mobile-alt fa-3x"></i>
+                <h3>Call us:</h3>
+                <p>718-324-6751</p>
+            </div>
+        </div>
+        <!-- Gallery section -->
+        <div class="gallery" id="gallery">
+            <h2>Gallery</h2>
+            <p>Meet some of our happy clients ❤</p>
+            <div class="dog-photos">
+                <img src="images/dog1.jpg" alt="Eric">
+                <img src="images/dog2.jpg" alt="Coco">
+                <img src="images/dog3.jpg" alt="Rocky">
+                <img src="images/dog4.jpg" alt="Luna">
+                <img src="images/dog5.jpg" alt="Max">
+                <img src="images/dog6.jpg" alt="Stella">
+                <img src="images/dog7.jpg" alt="Shark">
+                <img src="images/dog8.jpg" alt="Teddy">
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+        </div>
+        <!-- Booking section -->
+        <div class="booking" id="book">
+            <img src="images/logo.png" class="logo" alt="logo">
+            <h2>Book an appointment</h2>
+            <p>Send us a message and we'll get back to you as soon as pawsible</p>
+            <form action="main.js" method="POST">
+                <label for="first-name">First name*</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <label for="last-name">Last name*</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <label for="phone-num">Phone Number*</label>
+                <input type="number" name="phone-num" id="phone-num" required>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required>
+                <label for="date">Date*</label>
+                <input type="date" name="date" id="date" required>
+                <label for="time">Time*</label>
+                <input type="time" name="time" id="time" required>
+                <label for="service-type">Service type*</label>
+                <select id="service-type" name="service-type">
+                    <option value="self-service-bath">Self-service bath</option>
+                    <option value="proffesional-bath">Proffesional bath</option>
+                    <option value="mini grooming">Mini grooming</option>
+                    <option value="full grooming">Full grooming</option>
+                </select>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                <button class="submit-button" type="submit">Book now</button>
+            </form>   
+        </div>
+        <!-- Footer -->
+        <footer>
+            <ul>
+                <li>
+                    <i class="fab fa-facebook fa-3x"></i>
+                </li>
+                <li>
+                    <i class="fab fa-instagram fa-3x"></i>
+                </li>
+                <li>
+                    <i class="fab fa-pinterest fa-3x"></i>
+                </li>
+                <p>Pawtastic Dog Salon & Wash</p>
+                <p>233 Lewis Avenue, Brooklyn, NY 11233  |  pawtastic@mail.com  |  718-324-6751</p>
+            </ul>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
