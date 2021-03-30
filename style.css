@@ -322,7 +322,7 @@ button:hover {
     display: block;
     line-height: 2rem;
     text-align: center;
-    padding-top: 5%;
+    padding: 5%;
     background-image: url(images/fur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
